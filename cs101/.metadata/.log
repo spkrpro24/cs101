@@ -1,0 +1,164 @@
+!SESSION 2015-01-12 18:49:25.716 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_20-ea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-01-12 18:49:43.484
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY org.eclipse.core.net 1 0 2015-01-12 18:49:45.371
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2015-01-12 18:49:45.715
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-01-12 18:49:45.715
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@73d62b5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.jboss.tools.maven.ui.commands.selectMavenProfileCommand,Maven Profiles Selection,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5e99e2cb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-01-12 18:49:45.715
+!MESSAGE A conflict occurred for ALT+COMMAND+C:
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(de.bastiankrol.startexplorer.copyResourcePathToClipboardFromResourceView,Copy Resource Path to Clipboard,
+		Copies the path of the resource to the clipboard,
+		Category(de.bastiankrol.startexplorer.commands.category,StartExplorer,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@76ac68b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.modify.method.parameters,Change Method Signature,
+		Change method signature includes parameter names and parameter order,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f559c74,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.jboss.tools.maven.profiles.ui 1 0 2015-01-12 18:49:48.093
+!MESSAGE Found org.eclipse.m2e.profiles.ui, removing conflicting binding for org.jboss.tools.maven.ui.commands.selectMavenProfileCommand
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-01-12 18:49:51.331
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140606-1215/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-01-12 18:50:01.342
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-01-12 18:50:01.373
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-01-12 18:50:08.418
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140528-2000/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-01-12 18:50:14.883
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140528-2000/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-01-12 18:50:30.107
+!MESSAGE No repository found at file:/Users/jeremyallison/Google%20Drive/Eclipse/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-01-12 18:50:32.212
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140606-1215/compositeContent.xml
+!SESSION 2015-01-12 19:17:11.819 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_20-ea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-01-12 19:17:31.971
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY org.eclipse.core.net 1 0 2015-01-12 19:17:33.869
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2015-01-12 19:17:34.286
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-01-12 19:17:34.286
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@38f617f4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.jboss.tools.maven.ui.commands.selectMavenProfileCommand,Maven Profiles Selection,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4899799b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-01-12 19:17:34.286
+!MESSAGE A conflict occurred for ALT+COMMAND+C:
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(de.bastiankrol.startexplorer.copyResourcePathToClipboardFromResourceView,Copy Resource Path to Clipboard,
+		Copies the path of the resource to the clipboard,
+		Category(de.bastiankrol.startexplorer.commands.category,StartExplorer,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3dea226b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.modify.method.parameters,Change Method Signature,
+		Change method signature includes parameter names and parameter order,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@74500e4f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.jboss.tools.maven.profiles.ui 1 0 2015-01-12 19:17:37.595
+!MESSAGE Found org.eclipse.m2e.profiles.ui, removing conflicting binding for org.jboss.tools.maven.ui.commands.selectMavenProfileCommand
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-01-12 19:17:42.837
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140606-1215/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-01-12 19:17:52.562
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-01-12 19:17:52.595
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-01-12 19:18:00.843
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140528-2000/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-01-12 19:18:07.165
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140528-2000/compositeContent.xml
