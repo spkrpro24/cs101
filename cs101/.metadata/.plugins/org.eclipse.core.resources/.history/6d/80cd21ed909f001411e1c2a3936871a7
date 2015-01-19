@@ -1,0 +1,31 @@
+public class BinarySwitch	{
+	  public static void main(String[] args) {
+	  }
+	  public BinarySwitch(String[] args) {
+	  }
+		  public static boolean disable = false;	{
+	  }
+		private boolean On;
+		
+		public void turnOn()	{	//1st Operation
+		setOn(true);
+		}
+		public void turnOff()	{	//2nd Operation
+		this.On = false;
+		}
+		public void toggle()	{	//3rd Operation
+		this.On =!this.On;		
+		}
+		public boolean isOn()	{	//3rd Operation
+		return this.On;
+		}
+		public void setOn(boolean On)	{	
+		this.On = On;	
+		}
+		public void BinarySwitchsetOn(boolean On)	{
+			this.On = On;
+		}
+		public static void setDisable(boolean d)	{
+			disable = d;
+		}
+		}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;On&apos; in &apos;BinarySwitch&apos; to &apos;on&apos;&#x0A;- Original project: &apos;HelloWorld&apos;&#x0A;- Original element: &apos;BinarySwitch.On&apos;&#x0A;- Renamed element: &apos;BinarySwitch.on&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;On&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;{BinarySwitch.java[BinarySwitch^On" name="on" references="true" setter="false" stamp="1421691241866" textual="false" version="1.0"/>
+</session>
