@@ -1,0 +1,14 @@
+
+public class Time {
+	public static void main(String[] args) {
+		int hour, minute, second;
+		hour = 20;
+		minute = 30;
+		second = 22;
+		System.out.println("Number of seconds since midnight:" +(second + (minute*60) + (hour*3600)));
+		System.out.println("The number of seconds until midnight:  ");
+		System.out.println(24 - hour * 60 + minute + second);
+		System.out.print("Percentage of the hour that has passed: ");
+	}
+}
+

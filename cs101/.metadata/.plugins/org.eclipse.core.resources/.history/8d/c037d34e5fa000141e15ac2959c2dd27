@@ -1,0 +1,57 @@
+public class BinarySwitch {
+	private boolean on;
+
+	public void turnOn() { 								// 1st Operation
+		setOn(true);
+	}
+
+	public void turnOff() { 							// 2nd Operation
+		this.on = false;
+	}
+
+	public void toggle() { 								// 3rd Operation
+		this.on = !this.on;
+	}
+
+	public boolean isOn() { 							// 3rd Operation
+		return this.on;
+	}
+
+	public void setOn(boolean On) {
+		this.on = On;
+	}
+
+	public void BinarySwitchsetOn(boolean On) {
+		this.on = On;
+	}
+
+	public String mySwitch1State() { 					// method
+		String state; 									// state is the variable of type String
+
+		if (on) {
+			state = "The Light is Turned on";
+		} else {
+			state = "The Light is Turned off";
+		}
+		return state;
+	}
+
+	@Override
+	// Tells compiler to override the usual method
+	public String toString() { // Method is toString
+		System.out.println("inside toString method"); 	// print statement when
+														// method is used
+		return isOn() ? "On" : "Off"; 					// if isOn it true = On & if false = Off
+	}
+
+	public static void main(String[] args) {
+
+		BinarySwitch mySwitch1 = new BinarySwitch();
+		System.out.println(mySwitch1); 					// returns state of isOn
+		mySwitch1.toggle();
+		System.out.println(mySwitch1.toString()); 		// returns state of isOn
+		mySwitch1.toggle();
+		System.out.println(mySwitch1.mySwitch1State()); // returns state of isOn
+		mySwitch1.toggle();
+	}
+}
