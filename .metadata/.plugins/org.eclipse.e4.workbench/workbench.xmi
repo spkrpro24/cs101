@@ -231,7 +231,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_070PYJuWEeSsYbwlQrJ_dQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_076WAJuWEeSsYbwlQrJ_dQ" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_0fqe6ZuWEeSsYbwlQrJ_dQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_5Q0SAapCEeSyo9SzmDE18A" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_0fqe6ZuWEeSsYbwlQrJ_dQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_070PYZuWEeSsYbwlQrJ_dQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -258,7 +258,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0702cJuWEeSsYbwlQrJ_dQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_07-ncpuWEeSsYbwlQrJ_dQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_0fpQ6JuWEeSsYbwlQrJ_dQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_5Q5xkKpCEeSyo9SzmDE18A" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_0fpQ6JuWEeSsYbwlQrJ_dQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_071dgJuWEeSsYbwlQrJ_dQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -753,7 +753,7 @@
     <bindings xmi:id="_0gjPtZuWEeSsYbwlQrJ_dQ" keySequence="ALT+COMMAND+X O" command="_0foCvZuWEeSsYbwlQrJ_dQ">
       <tags>platform:cocoa</tags>
     </bindings>
-    <bindings xmi:id="_0gvc9JuWEeSsYbwlQrJ_dQ" keySequence="COMMAND+CTRL+F" command="_0gvc8puWEeSsYbwlQrJ_dQ">
+    <bindings xmi:id="_446IUKpCEeSyo9SzmDE18A" keySequence="COMMAND+CTRL+F" command="_0gvc8puWEeSsYbwlQrJ_dQ">
       <tags>deleted</tags>
     </bindings>
   </bindingTables>
@@ -882,7 +882,7 @@
     <bindings xmi:id="_0ggMYZuWEeSsYbwlQrJ_dQ" keySequence="COMMAND+N" command="_0fopu5uWEeSsYbwlQrJ_dQ"/>
   </bindingTables>
   <bindingTables xmi:id="_0gwEA5uWEeSsYbwlQrJ_dQ" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_0fFQF5uWEeSsYbwlQrJ_dQ">
-    <bindings xmi:id="_0gwEBJuWEeSsYbwlQrJ_dQ" keySequence="M1+W" command="_0gwEAZuWEeSsYbwlQrJ_dQ">
+    <bindings xmi:id="_446IUapCEeSyo9SzmDE18A" keySequence="M1+W" command="_0gwEAZuWEeSsYbwlQrJ_dQ">
       <tags>deleted</tags>
     </bindings>
   </bindingTables>
