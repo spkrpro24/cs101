@@ -1,6 +1,6 @@
 
 public class Beersong {
-	public static void main(String[] args) { 	// Using while loop
+	public static void main(String[] args) { 	// Using Recursion
 		int beer = 99; 							// Variable of type Integer
 
 		while (beer > 0) {

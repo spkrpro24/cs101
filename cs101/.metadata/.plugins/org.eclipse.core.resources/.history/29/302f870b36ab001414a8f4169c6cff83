@@ -1,6 +1,6 @@
 
 public class Bottle {
-	public static void main(String args[]) {			//Using for loop
+	public static void main(String args[]) {			//Using Nested Conditional
 		int i, x;										//i & x are variables of type integer
 		String mycontainer = "bottles";					// mycontainer is the variable of type String, which = bottles
 		String s;										//s is the variable of type String
