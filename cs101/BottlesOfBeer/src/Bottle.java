@@ -5,7 +5,7 @@ public class Bottle {
 		String mycontainer = "bottles";					// mycontainer is the variable of type String, which = bottles
 		String s;										//s is the variable of type String
 
-		for (i = 99; i > 0; i--) {													//conditionals
+		for (i = 99; i > 0; i--) {													//for loop
 			s = i + " " + mycontainer + " of beer on the wall, " + i + " "			//1st Statement, # of bottles of beer on the wall,
 					+ mycontainer + " of beer, " + "take 1 down, pass it around,";	//2nd Statement# bottles of beer, take 1 down pass it around,
 			x = i - 1;																//# of bottles -1

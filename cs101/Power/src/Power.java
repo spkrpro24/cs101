@@ -1,5 +1,5 @@
-public class Power {
-	public static double power(double x, int n) { 		// Recursion
+public class Power {									
+	public static double power(double x, int n) { 		// Recursion Method that calls itself
 		if (n == 0) 									// base case (equality)
 			return 1;
 		else if (n > 0)									 // general case
