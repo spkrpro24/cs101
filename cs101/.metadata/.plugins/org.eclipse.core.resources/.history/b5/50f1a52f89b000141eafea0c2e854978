@@ -1,0 +1,15 @@
+package SquareRoot;
+
+public class SquareRoot {			//Exercise 7.2 method called squareRoot that takes a double as a parameter
+									//and returns an approximation of the square root of the parameter
+	public static double squareRt(int a) {	//assignment
+		double x0 = a / 2;				//100 divided by 2 = new variable
+		while (a != x0 * x0) {			//# is not equal to 
+			x0 = (x0 + a / x0) / 2;		//
+		}
+		return x0;
+	}
+	public static void main(String[] args) {
+		System.out.println(squareRt(1000));
+	}	
+}
