@@ -1,7 +1,6 @@
 package squareRoot;
 
-public class squareRoot {			//Exercise 7.2 method called squareRoot that takes a double as a parameter
-									//and returns an approximation of the square root of the parameter
+public class squareRoot {			//Exercise 7.2
 	public static double squareRoot(int a) {
 		double x0 = a / 2;
 		while (a != x0 * x0) {
