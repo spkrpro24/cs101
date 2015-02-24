@@ -1,0 +1,11 @@
+
+public class Exercise12_5ArrayOfIntegers {
+	public static void main(String[] args) {
+        boolean display;
+        display = areFactors(4, 1980);
+        System.out.println("Is 1980 divisible by 4? The answer is " + display);
+		}
+   public static boolean areFactors(int m, int n)  {
+        return (n%m == 0);
+   }
+}

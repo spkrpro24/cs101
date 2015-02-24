@@ -8,8 +8,8 @@ public class Beersong {
 			System.out.print(beer + " bottles of beer,"); 				// 2nd Statement
 			System.out.print("ya' take one down, pass it around, ");	// 3rd Statement
 			beer--; 													// Variable decremented by 1
-			System.out.print(beer + " bottles of beer on the wall");	//4th Statement
-			System.out.println();										//Start New Line, then repeat
+			System.out.print(beer + " bottles of beer on the wall");	// 4th Statement
+			System.out.println();										// Start New Line, then repeat
 
 		}
 		if (beer == 0) { 												// Final Statement when variable is 0
