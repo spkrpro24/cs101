@@ -42,7 +42,7 @@ public class Palindrome {
 	}
 }
 
-//	public static boolean isPalindromeLoop(String word) { 	// method using a
+//	public static boolean isPalindromeLoop(String word) { // method using a
 //															// while loop
 //		System.out.println("word = " + word);
 //		boolean result = false;

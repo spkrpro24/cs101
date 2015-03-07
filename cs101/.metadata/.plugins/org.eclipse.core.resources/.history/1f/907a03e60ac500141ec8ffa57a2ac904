@@ -6,7 +6,7 @@
 
 public class Palindrome {
 	public static char first(String word) {
-		return word.charAt(0); 						// return the first letter of the string
+		return word.charAt(0); // return the first letter of the string
 	}
 
 	public static char last(String word) {
@@ -40,22 +40,21 @@ public class Palindrome {
 		return false;
 
 	}
-}
 
-//	public static boolean isPalindromeLoop(String word) { 	// method using a
-//															// while loop
-//		System.out.println("word = " + word);
-//		boolean result = false;
-//
-//		while (first(word) == last(word)) {
-//
-//			if (word.length() <= 2) {
-//				result = true;
-//				break;
-//			} else {
-//				word = innerString(word);
-//			}
-//		}
-//		return result;
-//	}
-//}
+	public static boolean isPalindromeLoop(String word) { // method using a
+															// while loop
+		System.out.println("word = " + word);
+		boolean result = false;
+
+		while (first(word) == last(word)) {
+
+			if (word.length() <= 2) {
+				result = true;
+				break;
+			} else {
+				word = innerString(word);
+			}
+		}
+		return result;
+	}
+}
