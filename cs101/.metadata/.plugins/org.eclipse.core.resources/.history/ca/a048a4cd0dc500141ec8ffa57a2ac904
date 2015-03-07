@@ -25,8 +25,8 @@ public class Palindrome {
 	public static boolean isPalindrome(String word) {
 		System.out.println("I fear Palindrome's = " + word);
 
-		if (first(word) == last(word)) { 			// 1,  2 remove first last char
-													// remove first & last char
+		if (first(word) == last(word)) { 			// 1 terret // 2 remove first last char
+													// remove first & last character
 			if (word.length() <= 2) { 				// recursion base case
 				System.out.println("I no longer fear Palindrome's");
 			} else {
