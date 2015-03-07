@@ -1,4 +1,5 @@
 
+
 public class Beersong {
 	public static void main(String[] args) { 	// Using while loop
 		int beer = 99; 							// Variable of type Integer
@@ -10,7 +11,6 @@ public class Beersong {
 			beer--; 													// Variable decremented by 1
 			System.out.print(beer + " bottles of beer on the wall");	// 4th Statement
 			System.out.println();										// Start New Line, then repeat
-
 		}
 		if (beer == 0) { 												// Final Statement when variable is 0
 			System.out.println("No bottles of beer on the wall, no bottles of beer, ya’ can’t take one down, "

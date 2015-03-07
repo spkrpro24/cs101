@@ -6,8 +6,8 @@ public class Exercise7_4InterationFactorial {
 	
 	
 	public static int factorial(int n) {
-	    if (n == 0) {		//factorial 0 = 1
-	      return 1;			//return 1
+	    if (n == 0) {				//factorial 0 = 1
+	      return 1;					//return 1
 	    } else {
 	    	int result = 1;
 	    	for (int i = 1;i <= n; i++)	{

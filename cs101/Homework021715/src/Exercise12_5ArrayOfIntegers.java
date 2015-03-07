@@ -9,8 +9,8 @@ public class Exercise12_5ArrayOfIntegers {
 		   public static boolean areFactors(int n, int [] array)  {
 			   boolean result = true;
 			   for (int i = 0;i <array.length; i++)	{
-				   if (array[i]%n != 0)	{
-					   result = false;
+				   if (array[i]%n != 0)	{	
+					   result = false;		//result = (array(i) % n ==0);
 					   break;
 				   }
 			   }
@@ -24,10 +24,3 @@ public class Exercise12_5ArrayOfIntegers {
 		}
 }
 
-
-//
-//public static void main(String[] args) {
-//	   boolean display;
-//     display = areFactors(4, new int [5];	
-//     int tempArray [] = {5, 10, 15, 20};	//refrence variable
-//     System.out.println("Is 1980 divisible by 4? The answer is " + display);

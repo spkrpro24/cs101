@@ -1,0 +1,17 @@
+//Exercise 8.9. 
+//1. Create a new program named Palindrome.java.
+//2. Write a method named first that takes a String and returns the first
+//letter, and one named last that returns the last letter.
+//3. Write a method named middle that takes a String and returns a sub- string that contains everything except the first and last characters.
+
+public class Palindrome {
+	public static void first(String Palindrome)
+	string length = 
+	
+}
+}
+public static void main(String[] args) {
+	String first = "banana";
+	countLetters(fruit, 'a');
+}
+}
