@@ -2,7 +2,10 @@
 //1. Create a new program named Palindrome.java.
 //2. Write a method named first that takes a String and returns the first
 //letter, and one named last that returns the last letter.
-//3. Write a method named middle that takes a String and returns a sub- string that contains everything except the first and last characters.
+//3. Write a method named middle that takes a String and returns a sub- string 
+//   that contains everything except the first and last characters.
+//4. Write a recursive method named isPalindrome that takes a String and that 
+//   returns a boolean indicating whether the word is a palindrome or not.
 
 public class Palindrome {
 	public static char first(String word) {
@@ -19,7 +22,7 @@ public class Palindrome {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(isPalindrome("aibohphobia"));
+		System.out.println(isPalindrome("palindromeemordnilap"));
 	}
 
 	public static boolean isPalindrome(String word) {
@@ -27,11 +30,11 @@ public class Palindrome {
 
 		if (first(word) == last(word)) { 			// 1,  2 remove first last char
 													// remove first & last char
-			if (word.length() <= 2) { 				// recursion base case
-				System.out.println("I no longer fear Palindrome's");
+			if (word.length() <= 2) { 				// recursion base case//(<=) breaks the loop
+				System.out.println("If I remove the 1st & last char, is this still a Palindrome?");
 			} else {
 				System.out
-						.println("ditch the first & last letters & get rid of the Palindrome");
+						.println("ditch the first & last letters & attempt to kill the Palindrome");
 				return isPalindrome(innerString(word));
 
 			}
