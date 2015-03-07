@@ -25,7 +25,7 @@ public class Palindrome {
 
 
 	public static boolean isPalindrome(String word) {
-		System.out.println("I fear Palindrome's = " + word);
+		System.out.println("The fear of Palindrome's = " + word);
 
 		if (first(word) == last(word)) { 		// 1 terret // 2 remove first last char
 												// remove first & last character
@@ -33,7 +33,7 @@ public class Palindrome {
 				System.out.println("I no longer fear Palindrome's");
 				//return "yikes";
 			} else {
-				System.out.println("ditch the first & last letters & get rid of the Palindrome");
+				//System.out.println("I fear Palindrome's");
 				return isPalindrome(innerString(word));
 
 			}

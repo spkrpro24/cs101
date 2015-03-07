@@ -19,24 +19,23 @@ public class Palindrome {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(isPalindrome("aibohphobia"));	
+		System.out.println(isPalindrome("aibohphobia"));
 
 	}
 
 
 	public static boolean isPalindrome(String word) {
-		System.out.println("I fear Palindrome's = " + word);
+		System.out.println("word = " + word);
 
 		if (first(word) == last(word)) { 		// 1 terret // 2 remove first last char
 												// remove first & last character
 			if (word.length() <= 2) { 			// recursion base case
-				System.out.println("I no longer fear Palindrome's");
-				//return "yikes";
+				return true;
 			} else {
-				System.out.println("ditch the first & last letters & get rid of the Palindrome");
 				return isPalindrome(innerString(word));
 
 			}
+
 		}
 		return false;
 
