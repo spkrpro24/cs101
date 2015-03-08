@@ -1,6 +1,6 @@
 AbstractTextEditor.Color.Background.SystemDefault=false
 AbstractTextEditor.Color.Foreground.SystemDefault=false
-bookmarkIndicationColorBold=false
+bookmarkIndicationColorBold=true
 comment1ColorBold=false
 comment2ColorBold=false
 eclipse.preferences.version=1
@@ -10,5 +10,5 @@ keyword1ColorBold=false
 keyword2ColorBold=true
 numberColorBold=false
 operatorColorBold=false
-taskIndicationColorBold=false
+taskIndicationColorBold=true
 variableColorBold=false
