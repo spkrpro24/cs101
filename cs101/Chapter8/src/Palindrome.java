@@ -10,57 +10,39 @@
 //   by reducing the number of conditions you check. Hint: it might be useful to adopt 
 //   the definition that the empty string is a palindrome.
 
+//Recursion Method
 public class Palindrome {
 	public static char first(String word) {
-		return word.charAt(0); 							// return the first letter of the string
+		return word.charAt(0); 					// return the first letter of the string
 	}
+
 	public static char last(String word) {
-		return word.charAt(word.length() - 1); 			// return the last letter of the												// string
+		return word.charAt(word.length() - 1); // return last letter of the string
 	}
 
 	public static String innerString(String word) {
-		return word.substring(1, word.length() - 1); 	// return the
-														// string(substring)
+		return word.substring(1, word.length() - 1);
 	}
+
 	public static void main(String[] args) {
 		System.out.println(isPalindrome("aibohphobiaaibohphobia"));
-	}
-	public static boolean isPalindrome(String word) {
-		System.out.println("I fear Palindrome's = " + word);
-		if (first(word) == last(word)) { 				// 1, 2 1st letter is equal to last
-														// letter
-			if (word.length() <= 2) { 					// recursion base case//if the length is
-														// <= 2
-				System.out.println("String is empty,is this still a Palindrome?");
-			} else {
-				if (word.length() == 0)
-					;
-				System.out
-						.println("Remove the first & last letters & attempt to kill the Palindrome");
-				return isPalindrome(innerString(word));
 
+	}
+
+	public static boolean isPalindrome(String word) {
+		System.out.println("Print the Palindrome = " + word);
+		if (word.length() < 2) { // recursion base case
+			System.out.println("Is this still a valid Palindrome....and the answer is.... = " + word);
+			return true;
+		} else {
+			if (first(word) == last(word)) {
+				System.out.println("Remove the 1st & last letter of = " + word);
+				return isPalindrome(innerString(word));
+			} else {
+				return false;
 			}
+
 		}
-		return true;
+
 	}
 }
-
-// public static boolean isPalindromeLoop(String word) { // method using a while
-// loop
-// System.out.println("String = " + word);
-// boolean result;
-//
-// while (first(word) == last(word)) {
-//
-// if (word.length() == 0) {
-// result = true;
-// } else {
-// System.out.println("Ditch the first & last letters & attempt to kill the Palindrome");
-// return isPalindrome(innerString(word));
-// //word = innerString(word);
-// }
-// }
-// return false;
-// }
-// }
-//
