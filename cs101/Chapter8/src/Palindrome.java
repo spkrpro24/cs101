@@ -9,18 +9,18 @@
 //5. Once you have a working palindrome checker, look for ways to simplify it 
 //   by reducing the number of conditions you check. Hint: it might be useful to adopt 
 //   the definition that the empty string is a palindrome.
-
 //Recursion Method
+
 public class Palindrome {
 	public static char first(String word) {
 		return word.charAt(0); 					// return the first letter of the string
 	}
 
 	public static char last(String word) {
-		return word.charAt(word.length() - 1); // return last letter of the string
+		return word.charAt(word.length() - 1); 	// return last letter of the string
 	}
 
-	public static String innerString(String word) {
+	public static String innerString(String word) {		// return 
 		return word.substring(1, word.length() - 1);
 	}
 
