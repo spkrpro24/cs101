@@ -21,6 +21,7 @@ public class CaptainCrunch {
 		System.out.println((char)97);		//cast 
 		System.out.println((int)'a');		//cast char a into an integer
 		System.out.println(input);
+		// System.out.print(" ");
 		System.out.print("Processing " + input + " results in: "
 				+ encode(input));
 	}

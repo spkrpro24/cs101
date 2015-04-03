@@ -18,11 +18,11 @@ public class CaptainCrunch {
 		String input;
 		System.out.println("Please enter word or letters: ");
 		input = inputstring.nextLine();
-		System.out.println((char)97);		//cast 
-		System.out.println((int)'a');		//cast char a into an integer
+		
+//		input = input + inputstring.next();
 		System.out.println(input);
-		System.out.print("Processing " + input + " results in: "
-				+ encode(input));
+//		System.out.print(" ");
+//		System.out.print("Processing " + input + " results in: " + encode(input));
 	}
 
 	public static String encode(String input) {
@@ -33,15 +33,11 @@ public class CaptainCrunch {
 		StringBuilder output = new StringBuilder();
 		for (index = 0; index < length; index++) {
 			c = input.charAt(index);
-			if (c == ' ') {
-				index = index++;
-			} else if (c >= 'a' && c <= 'm') {
+			if  (c == ' ')
+			index = index++; 
+			else if (c >= 'a' && c <= 'm')
 				c += 13;
-				output.append((char) (c));
-			}	else if (c > 'm')	{
-				output.append((char) ('a' + (12 - ('z' - c))));
-			}
-			
+			output.append((char) (c));
 		}
 		return output.toString();
 	}
