@@ -20,7 +20,7 @@ public class Palindrome2 {
 		System.out.println("String = " + word);
 		boolean result = false;
 		while (first(word) == last(word)) {
-
+			
 			if (word.length() <= 2) {
 				return result;
 			} else {
@@ -29,7 +29,7 @@ public class Palindrome2 {
 				return isPalindrome2(innerString(word)); 	//word = innerString(word);
 			}
 		}
-		return false;
+		return true;
 	}
 }
 

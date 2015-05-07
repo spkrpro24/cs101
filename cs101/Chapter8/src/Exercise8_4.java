@@ -22,7 +22,7 @@ public class Exercise8_4 {
 	}
 
 	public static void main(String[] args) {
-		String word = "((3 + 7) * 2)";				
+		String word = "((3 + 7) * 2)";
 		System.out.println(matchbrackets(word));
 
 	}

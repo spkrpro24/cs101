@@ -4398,3 +4398,1710 @@ org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://os
 
 !ENTRY org.apache.ivyde.eclipse 1 0 2015-04-02 21:23:48.249
 !MESSAGE IvyDE plugin started
+!SESSION 2015-04-03 01:54:05.354 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_20-ea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-04-03 01:54:13.815
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2015-04-03 01:54:14.786
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-03 01:54:14.786
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.jboss.tools.maven.ui.commands.selectMavenProfileCommand,Maven Profiles Selection,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@48cbe1c9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@67e628b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-03 01:54:14.786
+!MESSAGE A conflict occurred for ALT+COMMAND+C:
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(de.bastiankrol.startexplorer.copyResourcePathToClipboardFromResourceView,Copy Resource Path to Clipboard,
+		Copies the path of the resource to the clipboard,
+		Category(de.bastiankrol.startexplorer.commands.category,StartExplorer,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@578c99ac,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.modify.method.parameters,Change Method Signature,
+		Change method signature includes parameter names and parameter order,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6ca30886,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-03 01:54:14.786
+!MESSAGE A conflict occurred for ALT+COMMAND+Q P:
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.php.ui.explorer,PHP Script Explorer,
+		Shows the Script Explorer,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7bf16972,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.ui.views.showView,Show View,
+		Shows a particular view,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@eee26bd,
+		[Lorg.eclipse.e4.ui.internal.workbench.Parameter;@3d1c8f35,,true),[Lorg.eclipse.core.commands.Parameterization;@498f5728),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-03 01:54:14.786
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39451d92,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@46610fc9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-03 01:54:14.786
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1fdd5517,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2cd877d3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.jboss.tools.maven.profiles.ui 1 0 2015-04-03 01:54:21.526
+!MESSAGE Found org.eclipse.m2e.profiles.ui, removing conflicting binding for org.jboss.tools.maven.ui.commands.selectMavenProfileCommand
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-03 01:54:32.927
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-03 01:54:39.837
+!MESSAGE No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-03 01:54:41.354
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140528-2000/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-03 01:54:44.154
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140925-0400/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-03 01:54:47.720
+!MESSAGE No repository found at file:/Users/jeremyallison/Google%20Drive/Eclipse/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-03 01:54:49.319
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140606-1215/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-03 01:55:03.302
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140606-1215/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-04-03 01:55:05.098
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-04-03 01:55:05.202
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-03 01:55:12.338
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140528-2000/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-03 01:55:15.494
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/Enide/eclipse-p2-composite-repository/master/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-03 01:55:20.456
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/satyagraha/gfm_viewer/master/p2-composite/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-03 01:55:24.091
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://oss.opensagres.fr/tern.repository/1.0.0-SNAPSHOT/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-03 01:55:24.093
+!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-03 01:55:24.093
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:653)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-03 01:55:24.094
+!MESSAGE No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-03 01:55:27.685
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140925-0400/compositeContent.xml
+!SESSION 2015-04-07 16:44:27.161 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_20-ea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-04-07 16:45:07.426
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2015-04-07 16:45:09.422
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-07 16:45:09.422
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.jboss.tools.maven.ui.commands.selectMavenProfileCommand,Maven Profiles Selection,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69b80603,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5655278d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-07 16:45:09.422
+!MESSAGE A conflict occurred for ALT+COMMAND+C:
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(de.bastiankrol.startexplorer.copyResourcePathToClipboardFromResourceView,Copy Resource Path to Clipboard,
+		Copies the path of the resource to the clipboard,
+		Category(de.bastiankrol.startexplorer.commands.category,StartExplorer,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2dd46693,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.modify.method.parameters,Change Method Signature,
+		Change method signature includes parameter names and parameter order,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@27107a97,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-07 16:45:09.422
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@eb1e868,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@71a7cf7c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-07 16:45:09.422
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7f49df25,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b29d699,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-07 16:45:09.422
+!MESSAGE A conflict occurred for ALT+COMMAND+Q P:
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.php.ui.explorer,PHP Script Explorer,
+		Shows the Script Explorer,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5a5a973c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.ui.views.showView,Show View,
+		Shows a particular view,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@15c96f24,
+		[Lorg.eclipse.e4.ui.internal.workbench.Parameter;@24482a4f,,true),[Lorg.eclipse.core.commands.Parameterization;@3140ad41),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.jboss.tools.maven.profiles.ui 1 0 2015-04-07 16:45:24.578
+!MESSAGE Found org.eclipse.m2e.profiles.ui, removing conflicting binding for org.jboss.tools.maven.ui.commands.selectMavenProfileCommand
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-07 16:45:43.620
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-07 16:45:49.818
+!MESSAGE No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-07 16:45:50.556
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140528-2000/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-07 16:45:52.878
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140925-0400/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-07 16:45:56.953
+!MESSAGE No repository found at file:/Users/jeremyallison/Google%20Drive/Eclipse/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-07 16:45:57.664
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140606-1215/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-07 16:46:14.021
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140606-1215/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-04-07 16:46:16.134
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-04-07 16:46:16.221
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-07 16:46:23.060
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140528-2000/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-07 16:46:27.824
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/Enide/eclipse-p2-composite-repository/master/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-07 16:46:35.027
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/satyagraha/gfm_viewer/master/p2-composite/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-07 16:46:38.807
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://oss.opensagres.fr/tern.repository/1.0.0-SNAPSHOT/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-07 16:46:38.820
+!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-07 16:46:38.821
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:653)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-07 16:46:38.821
+!MESSAGE No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-07 16:46:42.226
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140925-0400/compositeContent.xml
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2015-04-07 17:24:58.732
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2015-04-07 17:24:58.817
+!MESSAGE IvyDE plugin started
+!SESSION 2015-04-21 16:07:46.982 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_20-ea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.standard.product -data /Users/jeremyallison/Development/cs101/cs101 -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-04-21 16:07:51.388
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-04-21 16:07:51.461
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.core.net 1 0 2015-04-21 16:07:55.634
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2015-04-21 16:07:56.620
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-21 16:07:56.620
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.jboss.tools.maven.ui.commands.selectMavenProfileCommand,Maven Profiles Selection,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2fe2fcc2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69926b6e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-21 16:07:56.620
+!MESSAGE A conflict occurred for ALT+COMMAND+C:
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(de.bastiankrol.startexplorer.copyResourcePathToClipboardFromResourceView,Copy Resource Path to Clipboard,
+		Copies the path of the resource to the clipboard,
+		Category(de.bastiankrol.startexplorer.commands.category,StartExplorer,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7ea8224b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.modify.method.parameters,Change Method Signature,
+		Change method signature includes parameter names and parameter order,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5a010eec,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-21 16:07:56.620
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@623ded82,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@180e33b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-21 16:07:56.620
+!MESSAGE A conflict occurred for ALT+COMMAND+Q P:
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.php.ui.explorer,PHP Script Explorer,
+		Shows the Script Explorer,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@270be080,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.ui.views.showView,Show View,
+		Shows a particular view,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@752ffce3,
+		[Lorg.eclipse.e4.ui.internal.workbench.Parameter;@78f35e39,,true),[Lorg.eclipse.core.commands.Parameterization;@11896124),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-21 16:07:56.620
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69fe8c75,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@633cad4d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.jboss.tools.maven.profiles.ui 1 0 2015-04-21 16:08:03.787
+!MESSAGE Found org.eclipse.m2e.profiles.ui, removing conflicting binding for org.jboss.tools.maven.ui.commands.selectMavenProfileCommand
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 16:08:12.486
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-21 16:08:22.892
+!MESSAGE No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 16:08:23.222
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140528-2000/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 16:08:25.379
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140925-0400/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-21 16:08:29.998
+!MESSAGE No repository found at file:/Users/jeremyallison/Google%20Drive/Eclipse/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 16:08:30.659
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140606-1215/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 16:08:42.221
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140606-1215/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 16:08:49.859
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140528-2000/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 16:08:54.687
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/Enide/eclipse-p2-composite-repository/master/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 16:09:03.208
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/satyagraha/gfm_viewer/master/p2-composite/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-21 16:09:06.633
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://oss.opensagres.fr/tern.repository/1.0.0-SNAPSHOT/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-21 16:09:06.635
+!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-21 16:09:06.635
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:653)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-21 16:09:06.635
+!MESSAGE No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 16:09:10.498
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140925-0400/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 16:09:40.499
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/artifacts.jar
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 16:09:43.564
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140528-2000/compositeArtifacts.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 16:09:44.586
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140925-0400/compositeArtifacts.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 16:09:46.829
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140606-1215/compositeArtifacts.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 16:09:53.519
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140606-1215/compositeArtifacts.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 16:09:56.916
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140528-2000/compositeArtifacts.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 16:10:01.054
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/Enide/eclipse-p2-composite-repository/master/compositeArtifacts.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 16:10:07.077
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/satyagraha/gfm_viewer/master/p2-composite/compositeArtifacts.xml
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-21 16:10:10.220
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://oss.opensagres.fr/tern.repository/1.0.0-SNAPSHOT/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:474)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:172)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:96)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:116)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:73)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:160)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:143)
+	at org.eclipse.equinox.internal.p2.engine.phases.Sizing.completePhase(Sizing.java:91)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:251)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:101)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:75)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.internal.p2.ui.ProvUI.getSize(ProvUI.java:235)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.SizeComputingWizardPage$1.run(SizeComputingWizardPage.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2015-04-21 16:10:10.220
+!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-21 16:10:11.810
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:474)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:172)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:96)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:116)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:73)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:160)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:143)
+	at org.eclipse.equinox.internal.p2.engine.phases.Sizing.completePhase(Sizing.java:91)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:251)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:101)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:75)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.internal.p2.ui.ProvUI.getSize(ProvUI.java:235)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.SizeComputingWizardPage$1.run(SizeComputingWizardPage.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2015-04-21 16:10:11.811
+!MESSAGE No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 16:10:13.939
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140925-0400/compositeArtifacts.xml
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2015-04-21 16:13:08.632
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2015-04-21 16:13:08.644
+!MESSAGE IvyDE plugin started
+!SESSION 2015-04-21 17:33:34.369 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_20-ea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-04-21 17:33:50.820
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2015-04-21 17:33:51.399
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-21 17:33:51.399
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.jboss.tools.maven.ui.commands.selectMavenProfileCommand,Maven Profiles Selection,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7bf16972,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@eee26bd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-21 17:33:51.399
+!MESSAGE A conflict occurred for ALT+COMMAND+C:
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(de.bastiankrol.startexplorer.copyResourcePathToClipboardFromResourceView,Copy Resource Path to Clipboard,
+		Copies the path of the resource to the clipboard,
+		Category(de.bastiankrol.startexplorer.commands.category,StartExplorer,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3d1c8f35,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.modify.method.parameters,Change Method Signature,
+		Change method signature includes parameter names and parameter order,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@498f5728,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-21 17:33:51.399
+!MESSAGE A conflict occurred for ALT+COMMAND+Q P:
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.php.ui.explorer,PHP Script Explorer,
+		Shows the Script Explorer,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39451d92,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.ui.views.showView,Show View,
+		Shows a particular view,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@46610fc9,
+		[Lorg.eclipse.e4.ui.internal.workbench.Parameter;@1fdd5517,,true),[Lorg.eclipse.core.commands.Parameterization;@2cd877d3),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-21 17:33:51.399
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3d605657,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@73b10975,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-21 17:33:51.399
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6318ff9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69b80603,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.jboss.tools.maven.profiles.ui 1 0 2015-04-21 17:33:55.986
+!MESSAGE Found org.eclipse.m2e.profiles.ui, removing conflicting binding for org.jboss.tools.maven.ui.commands.selectMavenProfileCommand
+
+!ENTRY org.eclipse.equinox.ds 2 0 2015-04-21 17:34:06.107
+!MESSAGE Getting a lock required more than 10000 ms. There might be a synchronization problem in this callstack or just the build/dispose process of some components took too long! 
+!STACK 0
+java.lang.Exception: Debug stacktrace
+	at org.eclipse.equinox.internal.ds.InstanceProcess.getLock(InstanceProcess.java:120)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:560)
+	at org.eclipse.equinox.internal.ds.ServiceReg.getService(ServiceReg.java:53)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:212)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:210)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:111)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:45)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:496)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:461)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:619)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.addingService(ProvisioningAgent.java:159)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:941)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:318)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:261)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.getService(ProvisioningAgent.java:66)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.getTransport(AbstractRepositoryManager.java:1189)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadIndexFile(AbstractRepositoryManager.java:735)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:657)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:34:17.491
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-21 17:34:22.802
+!MESSAGE No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:34:23.239
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140528-2000/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:34:25.326
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140925-0400/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-21 17:34:28.542
+!MESSAGE No repository found at file:/Users/jeremyallison/Google%20Drive/Eclipse/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:34:29.144
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140606-1215/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:34:42.679
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140606-1215/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-04-21 17:34:44.067
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-04-21 17:34:44.174
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:34:50.411
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140528-2000/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:34:54.900
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/Enide/eclipse-p2-composite-repository/master/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:35:01.880
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/satyagraha/gfm_viewer/master/p2-composite/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-21 17:35:05.275
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://oss.opensagres.fr/tern.repository/1.0.0-SNAPSHOT/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-21 17:35:05.276
+!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-21 17:35:05.277
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:653)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-21 17:35:05.277
+!MESSAGE No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:35:09.182
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140925-0400/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:35:35.942
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/artifacts.jar
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:35:38.899
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140528-2000/compositeArtifacts.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:35:39.969
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140925-0400/compositeArtifacts.xml
+!SESSION 2015-04-21 17:38:36.762 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_20-ea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-04-21 17:38:43.130
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2015-04-21 17:38:43.577
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-21 17:38:43.577
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.jboss.tools.maven.ui.commands.selectMavenProfileCommand,Maven Profiles Selection,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b552b13,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@524dd373,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-21 17:38:43.577
+!MESSAGE A conflict occurred for ALT+COMMAND+C:
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(de.bastiankrol.startexplorer.copyResourcePathToClipboardFromResourceView,Copy Resource Path to Clipboard,
+		Copies the path of the resource to the clipboard,
+		Category(de.bastiankrol.startexplorer.commands.category,StartExplorer,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ca3acad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.modify.method.parameters,Change Method Signature,
+		Change method signature includes parameter names and parameter order,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b75f3f4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-21 17:38:43.578
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@691a5c3a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5570dc21,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-21 17:38:43.578
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1477d4e6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@30b97fcf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-21 17:38:43.578
+!MESSAGE A conflict occurred for ALT+COMMAND+Q P:
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.php.ui.explorer,PHP Script Explorer,
+		Shows the Script Explorer,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b791e6e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.ui.views.showView,Show View,
+		Shows a particular view,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@583b4af4,
+		[Lorg.eclipse.e4.ui.internal.workbench.Parameter;@72c175f1,,true),[Lorg.eclipse.core.commands.Parameterization;@9fd3b61),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.jboss.tools.maven.profiles.ui 1 0 2015-04-21 17:38:47.752
+!MESSAGE Found org.eclipse.m2e.profiles.ui, removing conflicting binding for org.jboss.tools.maven.ui.commands.selectMavenProfileCommand
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2015-04-21 17:38:49.430
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2015-04-21 17:38:49.523
+!MESSAGE IvyDE plugin started
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:38:56.117
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-21 17:39:02.030
+!MESSAGE No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:39:02.396
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140528-2000/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:39:04.514
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140925-0400/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-21 17:39:08.213
+!MESSAGE No repository found at file:/Users/jeremyallison/Google%20Drive/Eclipse/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:39:08.808
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140606-1215/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:39:20.727
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140606-1215/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-04-21 17:39:22.170
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-04-21 17:39:22.227
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:39:28.879
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140528-2000/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:39:33.501
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/Enide/eclipse-p2-composite-repository/master/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:39:39.249
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/satyagraha/gfm_viewer/master/p2-composite/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-21 17:39:42.673
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://oss.opensagres.fr/tern.repository/1.0.0-SNAPSHOT/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-21 17:39:42.675
+!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-21 17:39:42.676
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:653)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-21 17:39:42.676
+!MESSAGE No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-21 17:39:45.629
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140925-0400/compositeContent.xml
+!SESSION 2015-04-22 21:51:43.796 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_20-ea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-04-22 21:52:04.613
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2015-04-22 21:52:06.431
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-22 21:52:06.431
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.jboss.tools.maven.ui.commands.selectMavenProfileCommand,Maven Profiles Selection,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1ba98508,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b552b13,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-22 21:52:06.431
+!MESSAGE A conflict occurred for ALT+COMMAND+C:
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(de.bastiankrol.startexplorer.copyResourcePathToClipboardFromResourceView,Copy Resource Path to Clipboard,
+		Copies the path of the resource to the clipboard,
+		Category(de.bastiankrol.startexplorer.commands.category,StartExplorer,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@524dd373,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.modify.method.parameters,Change Method Signature,
+		Change method signature includes parameter names and parameter order,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ca3acad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-22 21:52:06.431
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b75f3f4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@691a5c3a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-22 21:52:06.431
+!MESSAGE A conflict occurred for ALT+COMMAND+Q P:
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.php.ui.explorer,PHP Script Explorer,
+		Shows the Script Explorer,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5570dc21,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.ui.views.showView,Show View,
+		Shows a particular view,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1477d4e6,
+		[Lorg.eclipse.e4.ui.internal.workbench.Parameter;@30b97fcf,,true),[Lorg.eclipse.core.commands.Parameterization;@b791e6e),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-22 21:52:06.431
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@583b4af4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@72c175f1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.jboss.tools.maven.profiles.ui 1 0 2015-04-22 21:52:22.169
+!MESSAGE Found org.eclipse.m2e.profiles.ui, removing conflicting binding for org.jboss.tools.maven.ui.commands.selectMavenProfileCommand
+
+!ENTRY org.eclipse.equinox.ds 2 0 2015-04-22 21:52:32.651
+!MESSAGE Getting a lock required more than 10000 ms. There might be a synchronization problem in this callstack or just the build/dispose process of some components took too long! 
+!STACK 0
+java.lang.Exception: Debug stacktrace
+	at org.eclipse.equinox.internal.ds.InstanceProcess.getLock(InstanceProcess.java:120)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:560)
+	at org.eclipse.equinox.internal.ds.ServiceReg.getService(ServiceReg.java:53)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:212)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:210)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:111)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:45)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:496)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:461)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:619)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.addingService(ProvisioningAgent.java:159)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:941)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:318)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:261)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.getService(ProvisioningAgent.java:66)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.getTransport(AbstractRepositoryManager.java:1189)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadIndexFile(AbstractRepositoryManager.java:735)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:657)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-22 21:52:44.409
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-22 21:52:50.126
+!MESSAGE No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-22 21:52:51.135
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140528-2000/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-22 21:52:55.474
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140925-0400/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-22 21:52:59.174
+!MESSAGE No repository found at file:/Users/jeremyallison/Google%20Drive/Eclipse/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-22 21:53:00.461
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140606-1215/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-22 21:53:16.204
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140606-1215/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-04-22 21:53:20.382
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-04-22 21:53:20.438
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-22 21:53:26.883
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140528-2000/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-22 21:53:31.468
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/Enide/eclipse-p2-composite-repository/master/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-22 21:53:36.143
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/satyagraha/gfm_viewer/master/p2-composite/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-22 21:53:40.292
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://oss.opensagres.fr/tern.repository/1.0.0-SNAPSHOT/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-22 21:53:40.293
+!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-04-22 21:53:40.293
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:653)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-04-22 21:53:40.293
+!MESSAGE No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-04-22 21:53:46.119
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140925-0400/compositeContent.xml
+!SESSION 2015-05-06 22:41:13.125 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_20-ea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-05-06 22:41:48.142
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2015-05-06 22:42:00.313
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2015-05-06 22:42:02.099
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-05-06 22:42:02.099
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.jboss.tools.maven.ui.commands.selectMavenProfileCommand,Maven Profiles Selection,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@32e7df65,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@421d7900,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-05-06 22:42:02.099
+!MESSAGE A conflict occurred for ALT+COMMAND+C:
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(de.bastiankrol.startexplorer.copyResourcePathToClipboardFromResourceView,Copy Resource Path to Clipboard,
+		Copies the path of the resource to the clipboard,
+		Category(de.bastiankrol.startexplorer.commands.category,StartExplorer,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45964b9e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.modify.method.parameters,Change Method Signature,
+		Change method signature includes parameter names and parameter order,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@166a5659,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-05-06 22:42:02.099
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1afabf06,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33060020,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-05-06 22:42:02.099
+!MESSAGE A conflict occurred for ALT+COMMAND+Q P:
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.php.ui.explorer,PHP Script Explorer,
+		Shows the Script Explorer,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@443b6765,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.ui.views.showView,Show View,
+		Shows a particular view,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a72925,
+		[Lorg.eclipse.e4.ui.internal.workbench.Parameter;@4feaa4b8,,true),[Lorg.eclipse.core.commands.Parameterization;@4c6eaa65),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-05-06 22:42:02.099
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@53f1fcc2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6a261998,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.jboss.tools.maven.profiles.ui 1 0 2015-05-06 22:42:17.082
+!MESSAGE Found org.eclipse.m2e.profiles.ui, removing conflicting binding for org.jboss.tools.maven.ui.commands.selectMavenProfileCommand
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-05-06 22:42:30.858
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-05-06 22:42:37.192
+!MESSAGE No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-05-06 22:42:37.832
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140528-2000/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-05-06 22:42:43.039
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140925-0400/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-05-06 22:42:45.931
+!MESSAGE No repository found at file:/Users/jeremyallison/Google%20Drive/Eclipse/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-05-06 22:42:46.704
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140606-1215/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-05-06 22:43:02.728
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140606-1215/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-05-06 22:43:07.978
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-05-06 22:43:08.033
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-05-06 22:43:16.413
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140528-2000/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-05-06 22:43:19.416
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/Enide/eclipse-p2-composite-repository/master/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-05-06 22:43:24.118
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/satyagraha/gfm_viewer/master/p2-composite/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-05-06 22:43:29.079
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://oss.opensagres.fr/tern.repository/1.0.0-SNAPSHOT/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-05-06 22:43:29.156
+!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-05-06 22:43:29.157
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:653)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-05-06 22:43:29.157
+!MESSAGE No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-05-06 22:43:33.667
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140925-0400/compositeContent.xml
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2015-05-06 23:18:07.023
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2015-05-06 23:18:07.107
+!MESSAGE IvyDE plugin started
+!SESSION 2015-05-06 23:37:59.058 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_20-ea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.standard.product -keyring /Users/jeremyallison/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-05-06 23:38:08.816
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2015-05-06 23:38:09.288
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-05-06 23:38:09.288
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.jboss.tools.maven.ui.commands.selectMavenProfileCommand,Maven Profiles Selection,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b791e6e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@583b4af4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-05-06 23:38:09.288
+!MESSAGE A conflict occurred for ALT+COMMAND+C:
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(de.bastiankrol.startexplorer.copyResourcePathToClipboardFromResourceView,Copy Resource Path to Clipboard,
+		Copies the path of the resource to the clipboard,
+		Category(de.bastiankrol.startexplorer.commands.category,StartExplorer,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@72c175f1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.modify.method.parameters,Change Method Signature,
+		Change method signature includes parameter names and parameter order,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9fd3b61,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-05-06 23:38:09.288
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a34de5e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@48da5106,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-05-06 23:38:09.288
+!MESSAGE A conflict occurred for ALT+COMMAND+Q P:
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.php.ui.explorer,PHP Script Explorer,
+		Shows the Script Explorer,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@31cddb11,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.ui.views.showView,Show View,
+		Shows a particular view,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@510bd87a,
+		[Lorg.eclipse.e4.ui.internal.workbench.Parameter;@3d213a2b,,true),[Lorg.eclipse.core.commands.Parameterization;@27691ee8),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-05-06 23:38:09.288
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@78a34c47,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77648321,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.jboss.tools.maven.profiles.ui 1 0 2015-05-06 23:38:13.234
+!MESSAGE Found org.eclipse.m2e.profiles.ui, removing conflicting binding for org.jboss.tools.maven.ui.commands.selectMavenProfileCommand
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-05-06 23:38:26.212
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-05-06 23:38:30.774
+!MESSAGE No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-05-06 23:38:31.279
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140528-2000/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-05-06 23:38:34.202
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140925-0400/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-05-06 23:38:36.898
+!MESSAGE No repository found at file:/Users/jeremyallison/Google%20Drive/Eclipse/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-05-06 23:38:37.714
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140606-1215/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-05-06 23:38:54.051
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140606-1215/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-05-06 23:38:56.480
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-05-06 23:38:56.545
+!MESSAGE Unable to acquire PluginConverter service during generation for: /Applications/eclipse/plugins/configuration.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-05-06 23:39:02.721
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.egit.feature.group/4.4.0.v20140528-2000/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-05-06 23:39:05.485
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/Enide/eclipse-p2-composite-repository/master/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-05-06 23:39:09.572
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/satyagraha/gfm_viewer/master/p2-composite/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-05-06 23:39:12.711
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://oss.opensagres.fr/tern.repository/1.0.0-SNAPSHOT/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-05-06 23:39:12.713
+!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-05-06 23:39:12.713
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:653)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2015-05-06 23:39:12.714
+!MESSAGE No repository found at http://oss.opensagres.fr/angularjs-eclipse/1.0.0-SNAPSHOT/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-05-06 23:39:16.076
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.4.0.v20140925-0400/compositeContent.xml
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2015-05-06 23:43:17.528
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2015-05-06 23:43:17.545
+!MESSAGE IvyDE plugin started

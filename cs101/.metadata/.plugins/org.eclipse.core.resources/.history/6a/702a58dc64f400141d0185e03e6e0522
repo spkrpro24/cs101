@@ -1,0 +1,42 @@
+//Exercise 8.10. A word is said to be “abecedarian” if the letters in the word appear in alphabetical order. 
+//For example, the following are all 6-letter English abecedarian words.
+//Words:  abdest, acknow, acorsy, adempt, adipsy, agnosy, befist, behint, beknow, bijoux, biopsy, 
+//cestuy, chintz, deflux, dehors, dehort, deinos, diluvy, dimpsy
+
+public class isAbe {
+        public static boolean isabe(String s) {
+                int index = 0;
+                char c = 'a'; 
+                while (index < s.length()) {
+                        if (c > s.charAt(index)) {
+                                return false;
+                        }
+                        c = s.charAt(index); 
+                        index = index + 1;
+                        
+                }
+                return true;
+        }
+
+//	   public static boolean isabe(String word) {
+//	       boolean isabe = true;
+//	       if (word.length() > 1) { 			 // If String is > 2
+//	           // Possibly an abecedarian
+//	           char[] chars = word.toCharArray();
+//	           for (int i = 0; i < chars.length; i++) {
+//	        	   if (chars[i++] <= chars[i + 2]) {
+//	            	   isabe = true;
+//	               }
+//	           }
+//	       } else { 							// If String is Odd
+//	    	   isabe = false;
+//	       }
+//	       return isabe;
+//	   }
+	public static void main(String[] Args) {
+		String word = "abdest";
+		System.out.println(isabe(word));
+	}
+
+
+}

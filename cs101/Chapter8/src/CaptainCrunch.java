@@ -18,8 +18,8 @@ public class CaptainCrunch {
 		String input;
 		System.out.println("Please enter word or letters: ");
 		input = inputstring.nextLine();
-		System.out.println((char)97);		//cast 
-		System.out.println((int)'a');		//cast char a into an integer
+//		System.out.println((char)97);		//casting test
+//		System.out.println((int)'a');		//cast char a into an integer
 		System.out.println(input);
 		System.out.print("Processing " + input + " results in: "
 				+ encode(input));
